@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".details_user">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="126dp"
+                        android:layout_height="75dp"
+                        android:layout_gravity="left"
+                        android:text="January"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:layout_width="146dp"
+                        android:layout_height="75dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_gravity="right"
+                        android:text="Amount"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="75dp"
+                        android:layout_gravity="center"
+                        android:text="Payed  "
+                        android:textSize="25dp" />
+
+                </LinearLayout>
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+
+</RelativeLayout>
