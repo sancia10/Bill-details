@@ -42,6 +42,6 @@ public class admin extends AppCompatActivity implements View.OnClickListener{
     }
         public void openEdit_previous_details() {
         Intent intent = new Intent(this, Edit_previous_details.class );
-
+        startActivity(intent);
         }
 }

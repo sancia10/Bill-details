@@ -13,7 +13,7 @@
 
 
         <TextView
-            android:id="@+id/name"
+            android:id="@+id/Name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
@@ -25,10 +25,10 @@
             android:textSize="50dp" />
 
         <TextView
-            android:id="@+id/address"
+            android:id="@+id/Address"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/name"
+            android:layout_below="@id/Name"
             android:layout_centerVertical="true"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
@@ -41,7 +41,7 @@
             android:id="@+id/phone"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/address"
+            android:layout_below="@id/Address"
             android:layout_centerVertical="true"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
@@ -60,7 +60,6 @@
 
 
     </LinearLayout>
-
 
 
 </RelativeLayout>
