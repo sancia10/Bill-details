@@ -48,6 +48,17 @@
             android:layout_marginBottom="58dp"
             android:background="#24A0ED"
             android:text="log in" />
+        <Button
+            android:id="@+id/login_button_google"
+            android:layout_width="295dp"
+            android:layout_height="59dp"
+            android:layout_below="@id/login_button"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginBottom="58dp"
+            android:background="#24A0ED"
+            android:text="log in through google" />
 
 
     </LinearLayout>
